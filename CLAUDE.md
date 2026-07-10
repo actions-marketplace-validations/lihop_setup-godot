@@ -2,8 +2,7 @@
 
 GitHub Action that installs Godot in CI. The repo is `lihop/godot-setup`; the
 published action name is `lihop/setup-godot` (same repo, GitHub redirects).
-`lib/*.js` is the shipped code — there is no build step. Backlog and session
-state: `.claude/TASKS.md`.
+`lib/*.js` is the shipped code — there is no build step.
 
 ## Releases
 
@@ -14,6 +13,6 @@ state: `.claude/TASKS.md`.
 2. Bump version in `package.json` (commit: `chore: bump version to vX.Y.Z`).
 3. Wait for a green Build run on the exact release commit
    (push triggers `.github/workflows/demo.yml`; there is no manual trigger).
-4. Tag `vX.Y.Z`, then re-point the floating `v3` tag to the same commit —
-   consumers use `@v3` and get nothing until it moves.
+4. Tag `vX.Y.Z`, then re-point the floating major-version tag (`vX`) to the
+   same commit — consumers use `@vX` and get nothing until it moves.
 5. GitHub Release for the tag; body is the CHANGELOG sections verbatim.
