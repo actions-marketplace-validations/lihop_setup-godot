@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-- Download mesa-dist-win on Windows directly from its pinned release tag. Previously the pinned version was looked up in the repository's most recent releases, which failed once newer releases pushed the pinned one off that list ([#22](https://github.com/lihop/setup-godot/issues/22)).
+- [#22](https://github.com/lihop/setup-godot/issues/22): Download mesa-dist-win on Windows directly from its pinned release tag. Previously the pinned version was looked up in the repository's most recent releases, which failed once newer releases pushed the pinned one off that list.
 
 ## [v3.0.0](https://github.com/lihop/setup-godot/compare/v2.1.6...v3.0.0) - 2025-11-16
 
@@ -49,7 +49,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-- Fixed error occuring on Windows runners due to mesa-dist-win release not being found (again).
+- Fixed error occurring on Windows runners due to mesa-dist-win release not being found (again).
 
 ## [v2.1.3](https://github.com/lihop/setup-godot/compare/v2.1.2...v2.1.3) - 2024-03-30
 
@@ -80,7 +80,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-- Fixed error occuring on Windows runners due to mesa-dist-win release not being found.
+- Fixed error occurring on Windows runners due to mesa-dist-win release not being found.
 
 ## [v2.1.0](https://github.com/lihop/setup-godot/compare/v2.0.1...v2.1.0) - 2023-01-10
 
@@ -98,7 +98,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - Fixed failure due to trying to kill pulseaudio daemon when it wasn't running.
-- Fixed "Response code 403 (rate limit exceeded)" errors that were occuring on
+- Fixed "Response code 403 (rate limit exceeded)" errors that were occurring on
   Windows runners due to hitting API rate limits.
 
 ## [v2.0.1](https://github.com/lihop/setup-godot/compare/v2.0.0...v2.0.1) - 2022-09-29
@@ -119,7 +119,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Updated node modules using `npm audit fix`.
 
-## [v1.0.2](https://github.com/lihop/setup-godot/compare/v1.0.0...v1.0.2) - 2022-08-10
+## [v1.0.2](https://github.com/lihop/setup-godot/compare/v1.0.1...v1.0.2) - 2022-08-10
 
 ### Fixed
 
@@ -149,7 +149,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - Handling of symlinks when `path` already exists. If `path` exists and is already a symlink to `target`, nothing needs to be done, otherwise `path` will be deleted, replaced with a symlink to `target`, and a warning logged.
-- The `choco install mono` command occassionally times out, so retry it a few times.
+- The `choco install mono` command occasionally times out, so retry it a few times.
 
 ### Security
 
@@ -173,7 +173,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Default version is now 3.4-stable.
 - Stable versions >= 3.4 are now downloaded from the godotengine repo [releases](https://github.com/godotengine/godot/releases) rather than tuxfamily.org.
 
-## [v0.0.0](https://github.com/lihop/godot-setup/tags/v0.0.0) - 2021-07-24
+## [v0.0.0](https://github.com/lihop/setup-godot/releases/tag/v0.0.0) - 2021-07-24
 
 ### Added
 
