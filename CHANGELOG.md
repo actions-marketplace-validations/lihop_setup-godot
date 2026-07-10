@@ -5,7 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/lihop/setup-godot/compare/v3.0.0...HEAD)
+## [Unreleased](https://github.com/lihop/setup-godot/compare/v3.0.1...HEAD)
+
+## [v3.0.1](https://github.com/lihop/setup-godot/compare/v3.0.0...v3.0.1) - 2026-07-10
+
+### Fixed
+
+- Download mesa-dist-win on Windows directly from its pinned release tag. Previously the pinned version was looked up in the repository's most recent releases, which failed once newer releases pushed the pinned one off that list ([#22](https://github.com/lihop/setup-godot/issues/22)).
 
 ## [v3.0.0](https://github.com/lihop/setup-godot/compare/v2.1.6...v3.0.0) - 2025-11-16
 
